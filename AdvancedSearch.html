@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel = 'icon' href = 'R.png' type='image/png'>
+        <style>
+            .fig {
+                display: block;
+                text-align: center;
+
+            }
+        
+            input[class=col-in] {
+                padding: 5px;
+                margin: 5px 5px;
+               
+            }
+
+            input[type=submit]  {
+                padding: 7px;
+                margin: 5px 5px;
+                border-radius: 5px 5px;
+                border-width: inherit;
+            }
+
+            div[id=adv-search] {
+                padding: 5px;
+                margin: 5px 5px;
+                text-align: left;
+            }
+             
+            </style>
+    </head>
+    <body>
+        <div style="text-align: right;">
+            <a href ='Index.html'>Advanced Search</a>        
+ </div>
+ <figure class='fig'>
+         <a href="Index.html" >
+          <img src="google-advanced-search.png" class="image/png" width="200" title="Return to Google Search ">
+         </a>
+<div id="adv-search">
+ <span id="span2">Find pages with...</span>
+     
+<div class="form-row">
+    <label class="col-row">all these words:</label>
+    <input class="col-in" name="as_q" type="text" size="100">
+</div>
+<div class="form-row">
+    <label class="col-row"> this exact word or phrase:</label>
+    <input class="col-in" name="as_epq" type="text" size="100">
+</div>
+<div class="form-row">
+    <label class="col-row"> any of these words:</label>
+    <input class="col-in"  name="as_oq" type="text" size="100">
+</div>
+<div class="form-row">
+    <label class="col-row"> none of these words:</label>
+    <input class="col-in"  name="as_eq" type="text" size="100">
+</div>
+</div>
+    <input type="submit" style="background-color: blue;
+    border: 1px solid #2f5bb7;
+    border-image:initial; color:#fff" value="Google Advanced Search" type="submit">
+    </body>
+</html>
